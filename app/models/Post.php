@@ -7,7 +7,7 @@ class Post extends Eloquent
 
     public function getLink()
     {
-    	return md5($this->id);
+    	return '/p/'.md5($this->id).'/';
     }
 
     public function fromArray(array $post)

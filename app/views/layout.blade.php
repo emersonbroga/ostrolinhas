@@ -10,19 +10,19 @@
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/style-metro.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />               
-    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />          
-    <link rel="stylesheet" href="assets/plugins/revolution_slider/css/rs-style.css" media="screen">
-    <link rel="stylesheet" href="assets/plugins/revolution_slider/rs-plugin/css/settings.css" media="screen">                
-    <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/plugins/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/style-metro.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />               
+    <link href="/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="/assets/plugins/bxslider/jquery.bxslider.css" rel="stylesheet" />          
+    <link rel="stylesheet" href="/assets/plugins/revolution_slider/css/rs-style.css" media="screen">
+    <link rel="stylesheet" href="/assets/plugins/revolution_slider/rs-plugin/css/settings.css" media="screen">                
+    <link href="/assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
     <!-- END GLOBAL MANDATORY STYLES -->
-    <link href="assets/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>    
+    <link href="/assets/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>    
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
     <body>
@@ -34,7 +34,7 @@
 				
                     <!-- BEGIN LOGO (you can use logo image instead of text)-->
                     <a class="brand logo-v1" href="/">
-                        <img src="resources/img/os_trolinhas.png" id="logoimg" alt="Os trolinhas">
+                        <img src="/resources/img/os_trolinhas.png" id="logoimg" alt="Os trolinhas">
                     </a>
                     <!-- END LOGO -->
 
@@ -80,8 +80,8 @@
        	</div> 	
     </div>
 
-    <script src="resources/js/echo.js"></script>
-    <script src="resources/js/app.js"></script>
+    <script src="/resources/js/echo.js"></script>
+    <script src="/resources/js/app.js"></script>
 
     </body>
 </html>

@@ -22,8 +22,8 @@ class HomeController extends BaseController {
 	}
 
 	public function show($id)
-    {
-        $post = Post::whereRaw('md5(`id`) = ?',array($id))->firstOrFail();
+	{
+		$post = Post::whereRaw('md5(`id`) = ?',array($id))->firstOrFail();
         return View::make('index')->with('posts', array($post));
     }
 

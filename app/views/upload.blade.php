@@ -9,7 +9,7 @@
 	<div class="control-group">
 		{{ Form::label('title', 'Image title', array('class' => 'control-label') ) }}
 		<div class="controls">
-			{{ Form::text('title', '', array('class' => 'm-wrap large', 'value' => Input::old('title') )) }}
+			{{ Form::text('title', '', array('class' => 'm-wrap large', 'value' => Input::old('title'), 'autocomplete' =>'off' )) }}
 			<span class="help-inline">{{ $errors->first('title') }}</span>
 		</div>
 	</div>
@@ -17,7 +17,7 @@
 	<div class="control-group">
 		{{ Form::label('url', 'Image url', array('class' => 'control-label') ) }}
 		<div class="controls">
-			{{ Form::text('url', '', array('class' => 'm-wrap large', 'value' => Input::old('url') )) }}
+			{{ Form::text('url', '', array('class' => 'm-wrap large', 'value' => Input::old('url'), 'autocomplete' =>'off'  )) }}
 			<span class="help-inline">{{ $errors->first('url') }}</span>
 		</div>
 	</div>
@@ -38,17 +38,5 @@
 	</div>
 
 	{{ Form::close() }}
-
-
-	 @foreach($posts as $post)
-		<p>
-			<span>{{ $post->title }}</span>
-			<p>{{$post->description }}</p>
-			<br/>
-        	<img src="/image/{{ $post->url }}" alt="{{ $post->title }}" />
-	       	<br/>
-	       	<img src="/image/fb_{{ $post->url }}" alt="{{ $post->title }}" />
-       	</p>
-    @endforeach
 
 @stop

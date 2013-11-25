@@ -4,8 +4,7 @@ class UploadController extends BaseController {
 
 	public function upload()
 	{
-		$posts = Post::all();
-		return View::make('upload')->with('posts', $posts);
+		return View::make('upload');
 	}
 
 	public function process()
@@ -14,7 +13,7 @@ class UploadController extends BaseController {
 
 			$rules = array(
 				'title' => 'required|min:3',
-				'url' => 'required|min:10',
+				'url' => 'required|min:10|url',
 				'description' => 'min:3'
 			);
 
